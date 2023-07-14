@@ -33,8 +33,16 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-   var typed = new Typed(".typing-2", {
-        strings: ["WEB DEVELOPER"],
+    // typing text animation script
+    var typed = new Typed(".typing", {
+        strings: ["FRESHER"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-2", {
+        strings: ["Student"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
